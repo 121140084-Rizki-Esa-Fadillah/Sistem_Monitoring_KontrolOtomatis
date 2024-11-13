@@ -1,0 +1,48 @@
+{
+  "aerator": {
+    "aeratorOffMinutesBefore": 15,
+    "aeratorOnMinutesAfter": 25
+  },
+  "feeding_schedule": {
+    "schedule_1": {
+      "amount": 90,
+      "time": "10:00"
+    },
+    "schedule_2": {
+      "amount": 90,
+      "time": "08:00"
+    },
+    "schedule_3": {
+      "amount": 90,
+      "time": "08:00"
+    },
+    "schedule_4": {
+      "amount": 90,
+      "time": "08:00"
+    }
+  },
+  "isi_pakan": true,
+  "sensorData": {
+    "pH": 8.1,
+    "rtcTime": "2024-10-31 12:34:56",
+    "salinity": 30,
+    "temperature": 29,
+    "turbidity": 20
+  },
+  "status_sensor": {
+    "ph": true,
+    "salinitas": true,
+    "suhu": true,
+    "turbidity": true
+  },
+  "thresholds": {
+    "pHHigh": 8.5,
+    "pHLow": 7.5,
+    "salinityHigh": 32,
+    "salinityLow": 26,
+    "temperatureHigh": 30,
+    "temperatureLow": 28,
+    "turbidityHigh": 32,
+    "turbidityLow": 8
+  }
+}
